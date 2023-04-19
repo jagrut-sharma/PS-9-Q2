@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.navLinks {
+  margin: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navLinks:hover {
+  color: green;
+  font-weight: 600;
+}
+
+.activeLink {
+  color: orange;
+  font-weight: 600;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  border: 1px solid black;
+  padding: 1rem;
+  min-width: 8rem;
+  max-width: 11rem;
+  margin: 0.5rem;
+}
+
+.book-img {
+  width: 100%;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-container {
+  margin: 0.5rem 0 0;
+}
+.profile {
+  width: 40%;
+}
